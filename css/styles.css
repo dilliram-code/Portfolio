@@ -1,4 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300;400;500;600;700&display=swap");
+
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 /* CSS variables */
 :root 
@@ -24,11 +26,14 @@ html {
 }
 
 body {
-  font-family: "Zilla Slab", serif;
+  font-family: "Poppins", serif;
   line-height: 1.5;
 }
 ::before, ::after {
   box-sizing: border-box;
+}
+ul {
+  list-style: none;
 }
 
 .section{
@@ -49,7 +54,42 @@ body {
   position: fixed;
   left: 0;
   top: 0;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   z-index: 10;
   height: 100%;
-  
+}
+
+.aside .logo {
+  position: absolute;
+  top: 50px;
+  font-size: 30px;
+  text-transform: capitalize;
+}
+
+.aside .logo a {
+  color: var(--text-black-700);
+  font-weight: 700;
+  padding: 15px 20px;
+  font-size: 30px;
+  letter-spacing: 5px;
+  position: relative;
+}
+
+.aside .logo a span { 
+  font-family:'Clicker Script', cursive;
+  font-size: 40px;
+}
+
+.aside .logo a::before {
+  content: '';
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-bottom: 5px solid var(--skin-color);
+  border-left: 5px solid var(--skin-color);
+  bottom: 0;
+  left: 0;
 }
