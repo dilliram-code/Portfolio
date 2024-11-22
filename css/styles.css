@@ -209,6 +209,14 @@ h3.hello {
   margin: 15px 0;
 }
 
+h3.hello span {
+  letter-spacing: 1.5px;
+  font-family: 'Clicker Script', cursive;
+  font-size: 40px;
+  font-weight: 700;
+  margin-left: 10px;
+  color: var(--skin-color);
+}
 .home .home-img {
   flex: 0 0 40%;
   max-width: 40%;
@@ -220,3 +228,4 @@ h3.hello {
   height: 400px;
   /* width: auto; */
 }
+
