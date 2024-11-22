@@ -109,5 +109,21 @@ ul {
 }
 .aside .nav li {
   margin-bottom: 20px;
-  background: red;
+  display: block;
+}
+.aside .nav li a {
+  font-size: 16px;
+  font-weight: 600;
+  display: block;
+  border-bottom: 1px solid var(--bg-black-50);
+  color: var(--text-black-900);
+  padding: 5px 15px;
+}
+.aside .nav li a.active {
+  color: var(--skin-color);
+}
+
+.aside  .nav  li  a i {
+  margin-right: 15px;
+
 }
