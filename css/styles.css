@@ -63,7 +63,7 @@ ul {
 .row {
   display: flex;
   flex-wrap: wrap;
-  flex-direction: column; /*This property is absent in actual code, it's injected by self*/
+  /* flex-direction: column; This property is absent in actual code, it's injected by self */
   margin-left: -15px;
   margin-right: -15px;
   position: relative;
@@ -207,6 +207,7 @@ ul {
 .home .home-img {
   flex: 0 0 40%;
   max-width: 40%;
+  background: red;
 }
 
 .home .home-img img {
