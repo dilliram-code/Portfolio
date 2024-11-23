@@ -35,17 +35,15 @@ body {
 ul {
   list-style: none;
 }
+.main-content{
+  padding-left: 270px;
+}
 
 .section{
   background: var(--bg-black-900);
   min-height: 100vh;
   display: block;
-  position: fixed;
-  left: 270px;
   padding: 0 30px;
-  top: 0;
-  right: 0;
-  z-index: 0;
   opacity: 1;
 }
 
@@ -268,7 +266,20 @@ h3.my-profession {
   bottom: -40px;
 }
 
+.home-img::before {
+  content: '';
+  position: absolute;
+  height: 80px;
+  width: 80px;
+  border-top: 10px solid var(--skin-color);
+  border-left: 10px solid var(--skin-color);
+  left: -20px;
+  top: -40px;
+}
+
 .home .home-img img {
+  margin: auto;
+  border-radius: 5px;
   height: 400px;
   /* width: auto; */
 }
