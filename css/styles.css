@@ -123,9 +123,12 @@ ul {
 }
 
 .btn:hover{
-  letter-spacing: 0.2px;
+  /* letter-spacing: 0.2px; */
   transform:scale(1.05) ;
   box-shadow:0 0 30px rgba(256, 0, 189, 0.5) ;
+}
+.shadow-dark {
+  box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
 }
 
 .aside {
@@ -425,8 +428,22 @@ h3.my-profession {
   flex: 0 0 50%;
   max-width: 50%;
   margin-top: 30px;
-  background-color: red;
 }
-.about .about-content .experience{
-  background-color: rosybrown;
+.about .about-content h3.title {
+  font-size: 24px;
+  margin-bottom: 30px;
+  font-weight: 700;
+  color: var(--text-black-900);
+}
+.about .about-content .timeline-box {
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+.about .about-content .timeline {
+  background-color: var(--bg-black-100);
+  padding: 30px 15px;
+  border: 1px solid var(--bg-black-50);
+  border-radius: 10px;
+  width: 100%;
+  position: relative;
 }
