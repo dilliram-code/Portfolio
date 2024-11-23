@@ -69,6 +69,11 @@ ul {
   position: relative;
 }
 
+.btn{
+  font-size: 16px;
+  font-weight: 500;
+  padding: 12px 35px;
+}
 
 .aside {
   width: 270px;
@@ -217,6 +222,21 @@ h3.hello span {
   margin-left: 10px;
   color: var(--skin-color);
 }
+
+h3.my-profession {
+  font-size: 30px;
+  margin: 15px 0;
+}
+.typing{
+  color: var(--skin-color);
+}
+
+.home-info p{
+  margin-bottom: 70px;
+  font-size: 20px;
+  color: var(--text-black-700);
+}
+
 .home .home-img {
   flex: 0 0 40%;
   max-width: 40%;
