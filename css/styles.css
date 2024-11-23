@@ -123,7 +123,7 @@ ul {
 }
 
 .btn:hover{
-  letter-spacing: 0.5px;
+  letter-spacing: 0.2px;
   transform:scale(1.05) ;
   box-shadow:0 0 30px rgba(256, 0, 189, 0.5) ;
 }
@@ -318,7 +318,6 @@ h3.my-profession {
   left: -20px;
   top: -40px;
 }
-
 .home .home-img img {
   margin: auto;
   border-radius: 5px;
@@ -331,7 +330,6 @@ h3.my-profession {
   flex: 0 0 100%;
   max-width: 100%;
 }
-
 .about .about-content .about-text{
   flex: 0 0 100%;
   max-width: 100%;
@@ -343,23 +341,43 @@ h3.my-profession {
   font-weight: 700;
   color: var(--text-black-900);
 }
-
 .about .about-content .about-text h3 span {
   color: var(--skin-color);
 }
-
 .about .about-content .about-text  p{
   font-size: 16px;
   line-height: 25px;
   color: var(--text-black-700);
 }
-
 .about .about-content .personal-info {
   flex: 0 0 60%;
   max-width: 60%;
   margin-top: 40px;
 }
-
+.about .about-content .personal-info .info-item{
+  flex: 0 0 50%;
+  max-width: 50%;
+  }
+.about .about-content .personal-info .info-item p {
+  font-weight: 600;
+  padding: 10px 0;
+  font-size: 16px;
+  color: var(--text-black-900);
+  border-bottom: 1px solid var(--bg-black-50);
+}
+.about .about-content .personal-info .info-item p span {
+  font-weight: 400;
+  color: var(--text-black-700);
+  margin-left: 4px;
+  display: inline-block;
+}
+.about .about-content .personal-info .buttons {
+  margin-top: 30px;
+}
+.about .about-content .personal-info .buttons .btn {
+  margin-right: 15px;
+  margin-top: 10px;
+}
 .about .about-content .skills {
   flex: 0 0 40%;
   max-width: 40%;
