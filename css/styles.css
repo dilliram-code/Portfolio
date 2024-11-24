@@ -479,3 +479,6 @@ h3.my-profession {
   margin-bottom: 12px;
   color: var(--text-black-700);
 }
+.about .about-content .timeline .timeline-date .fa {
+  margin-right: 5px;
+}
