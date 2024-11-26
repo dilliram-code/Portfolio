@@ -668,3 +668,10 @@ h3.my-profession {
     margin-left: 0;
   }
 }
+@media (max-width:991px){
+  .home .home-info {
+    flex: 0 0 100%;
+    max-width: 100%;
+    
+  }
+}
