@@ -679,13 +679,15 @@ h3.my-profession {
   .home .home-info {
     flex: 0 0 100%;
     max-width: 100%;
-
   }
   .home .home-img {
     display: none;
   }
 }
 @media (max-width: 767px){
+  .contact .contact-form .col-6,
+  .contact .contact-info-item,
+  .portfolio .portfolio-item,
   .service .service-item,
   .about .about-content .experience,
   .about .about-content .education,
