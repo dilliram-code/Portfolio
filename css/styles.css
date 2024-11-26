@@ -667,6 +667,13 @@ h3.my-profession {
     display: block;
     margin-left: 0;
   }
+
+  /* Test code */
+  .home .home-info{
+    float: 0 0 40%;
+    max-width: 60%;
+  }
+  /* Test code ends */
 }
 @media (max-width:991px){
   .contact .contact-info-item,
