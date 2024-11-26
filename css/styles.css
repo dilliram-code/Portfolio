@@ -675,7 +675,7 @@ h3.my-profession {
     flex: 0 0 50%;
     max-width: 50%;
   }
-  .about .about-content .education,
+  
   .home .home-info {
     flex: 0 0 100%;
     max-width: 100%;
@@ -686,6 +686,9 @@ h3.my-profession {
   }
 }
 @media (max-width: 767px){
+  .service .service-item,
+  .about .about-content .experience,
+  .about .about-content .education,
   .about .about-content .skills,
   .about .about-content .personal-info {
     flex: 0 0 100%;
