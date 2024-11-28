@@ -1,3 +1,6 @@
-'use strict';
-
-console.log("I am a hero!")
+var typed = new Typed(".typing", {
+  strings: ["Web Designer", "Web Developer", "Graphic Designer", "YouTuber"],
+  typeSpeed: 100,
+  BackSpeed: 60,
+  loop:true
+})
