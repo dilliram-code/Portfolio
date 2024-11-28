@@ -663,7 +663,7 @@ h3.my-profession {
 }
 
 /* Responsiveness */
-@media (min-width: 1199px){
+@media (min-width: 1200px){
   .aside {
     left: -270px;
   }
