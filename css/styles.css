@@ -664,7 +664,7 @@ h3.my-profession {
 }
 
 /* Responsiveness */
-@media (min-width: 1200px){
+@media (max-width: 1199px){
   .aside {
     left: -270px;
   }
@@ -675,14 +675,14 @@ h3.my-profession {
     display: block;
     margin-left: 0;
   }
-
+}
   /* Test code */
-  .home .home-info{
+   .home .home-info{
     float: 0 0 40%;
     max-width: 60%;
   }
   /* Test code ends */
-}
+
 @media (max-width:991px){
   .contact .contact-info-item,
   .portfolio .portfolio-item,
@@ -699,6 +699,7 @@ h3.my-profession {
     display: none;
   }
 }
+
 @media (max-width: 767px){
   .contact .contact-form .col-6,
   .contact .contact-info-item,
@@ -712,5 +713,6 @@ h3.my-profession {
     max-width: 100%;
   }
 } 
+
 
 
