@@ -662,6 +662,13 @@ h3.my-profession {
   height: 50px;
   padding: 0 50px;
 }
+/* Test code */
+.home .home-info {
+  float: 0 0 40%;
+  max-width: 60%;
+}
+/* Test code ends */
+
 
 /* Responsiveness */
 @media (max-width: 1199px){
@@ -676,12 +683,7 @@ h3.my-profession {
     margin-left: 0;
   }
 }
-  /* Test code */
-   .home .home-info{
-    float: 0 0 40%;
-    max-width: 60%;
-  }
-  /* Test code ends */
+  
 
 @media (max-width:991px){
   .contact .contact-info-item,
@@ -690,6 +692,7 @@ h3.my-profession {
     flex: 0 0 50%;
     max-width: 50%;
   }
+  
   
   .home .home-info {
     flex: 0 0 100%;
