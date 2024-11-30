@@ -1,3 +1,39 @@
+// Loader logic starts
+
+gsap.fromTo(
+  ".loading-page",
+  { opacity: 1 },
+  {
+    opacity:0,
+    duration: 1.5,
+    delay: 3.5,
+  }
+);
+
+gsap.fromTo (
+    ".logo-name", 
+    {
+      y:50,
+      opacity: 0,
+    },
+    {
+      y:0,
+      opacity: 1,
+      duration: 2,
+      delay: 0.5,
+    }
+  );
+//Remove from DOM
+// Monitor GSAP animation completion using setTimeout
+setTimeout(() => {
+  const loader = document.querySelector(".loading-page");
+  if (loader) {
+    loader.parentNode.removeChild(loader); // Remove loader from the DOM
+  }
+}, 5000); // 3.5s delay + 1.5s duration = 5s total
+
+//loader logic ends
+
 // =========toggle style switcher ===============//
 const styleSwitcherToggle = document.querySelector('.style-switcher-toggler');
 styleSwitcherToggle.addEventListener("click", ()=>{
