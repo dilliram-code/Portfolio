@@ -600,6 +600,12 @@ h3.my-profession {
   border-radius: 10px;
   overflow: hidden;
   cursor: pointer;
+  transition: transform 0.5s ease;
+    /* Smooth animation */
+}
+.portfolio .portfolio-item-inner:hover {
+  transform: translateY(-20px);
+  /* Move 10px upward */
 }
 .portfolio  .portfolio-item-inner .portfolio-img img{
   width: 100%;
