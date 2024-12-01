@@ -606,6 +606,7 @@ h3.my-profession {
 }
 .portfolio .portfolio-item-inner:hover {
   transform: translateY(-20px);
+  border: 6px solid #3ed2e9;
   /* Move 10px upward */
 }
 .portfolio  .portfolio-item-inner .portfolio-img img{
