@@ -424,6 +424,23 @@ h3.my-profession {
   height: 100%;
   background-color: var(--skin-color);
 }
+.about .about-content .skills .skill-item .progress .javascript-class{
+  width: 70%;
+}
+.about .about-content .skills .skill-item .progress .css-class {
+  width: 80%;
+}
+.about .about-content .skills .skill-item .progress .html-class {
+  width: 90%;
+}
+.about .about-content .skills .skill-item .progress .python-class {
+  width: 85%;
+}
+.about .about-content .skills .skill-item .progress .ml-class {
+  width: 80%;
+}
+
+
 .about .about-content .skills .skill-item .skill-percent {
   position: absolute;
   right: 0;
