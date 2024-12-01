@@ -1,10 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300;400;500;600;700&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Clicker+Script&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 /* CSS variables */
-:root 
-{
+:root {
   --bg-black-900: #f2f2fc;
   --bg-black-100: #fdf9ff;
   --bg-black-50: #e8dfec;
@@ -37,17 +36,18 @@ body {
   font-family: "Poppins", serif;
   line-height: 1.5;
 }
-::before, ::after {
+::before,
+::after {
   box-sizing: border-box;
 }
 ul {
   list-style: none;
 }
-.main-content{
+.main-content {
   padding-left: 270px;
 }
 
-.section{
+.section {
   background: var(--bg-black-900);
   min-height: 100vh;
   display: block;
@@ -70,11 +70,11 @@ ul {
   margin: auto;
 }
 
-.section .container{
+.section .container {
   padding-top: 60px;
   padding-bottom: 70px;
 }
-.section-title{
+.section-title {
   flex: 0 0 100%;
   max-width: 100%;
   margin-bottom: 60px;
@@ -88,7 +88,7 @@ ul {
 }
 
 .section-title h2::before {
-  content: '';
+  content: "";
   height: 4px;
   width: 50px;
   background-color: var(--skin-color);
@@ -98,7 +98,7 @@ ul {
 }
 
 .section-title h2::after {
-  content: '';
+  content: "";
   height: 4px;
   width: 25px;
   background-color: var(--skin-color);
@@ -117,23 +117,23 @@ ul {
   position: relative;
 }
 
-.btn{
+.btn {
   font-size: 16px;
   font-weight: 500;
   color: white;
   border-radius: 40px;
   padding: 12px 35px;
   display: inline-block;
-  white-space: nowrap;   /*This prevents wrapping of the text*/
+  white-space: nowrap; /*This prevents wrapping of the text*/
   border: none;
   background: var(--skin-color);
   transition: all 0.3s ease;
 }
 
-.btn:hover{
+.btn:hover {
   /* letter-spacing: 0.2px; */
-  transform:scale(1.05) ;
-  box-shadow:0 0 30px rgba(255, 255, 240, 0.3) ;
+  transform: scale(1.05);
+  box-shadow: 0 0 30px rgba(255, 255, 240, 0.3);
 }
 .shadow-dark {
   box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
@@ -171,14 +171,14 @@ ul {
   position: relative;
 }
 
-.aside .logo a span { 
-  font-family:'Clicker Script', cursive;
+.aside .logo a span {
+  font-family: "Clicker Script", cursive;
   font-size: 40px;
   color: var(--skin-color);
 }
 
 .aside .logo a::before {
-  content: '';
+  content: "";
   position: absolute;
   width: 20px;
   height: 20px;
@@ -188,7 +188,7 @@ ul {
   left: 0;
 }
 .aside .logo a::after {
-  content: '';
+  content: "";
   position: absolute;
   width: 20px;
   height: 20px;
@@ -222,7 +222,7 @@ ul {
 }
 
 .aside .nav-toggler span::before {
-  content: '';
+  content: "";
   height: 2px;
   width: 18px;
   background: var(--skin-color);
@@ -231,7 +231,7 @@ ul {
   left: 0;
 }
 .aside .nav-toggler span::after {
-  content: '';
+  content: "";
   height: 2px;
   width: 18px;
   background: var(--skin-color);
@@ -259,7 +259,7 @@ ul {
   color: var(--skin-color);
 }
 
-.aside  .nav  li  a i {
+.aside .nav li a i {
   margin-right: 15px;
 }
 
@@ -281,7 +281,7 @@ h3.hello {
 
 h3.hello span {
   letter-spacing: 1.5px;
-  font-family: 'Clicker Script', cursive;
+  font-family: "Clicker Script", cursive;
   font-size: 40px;
   font-weight: 700;
   margin-left: 10px;
@@ -292,11 +292,11 @@ h3.my-profession {
   font-size: 30px;
   margin: 15px 0;
 }
-.typing{
+.typing {
   color: var(--skin-color);
 }
 
-.home-info p{
+.home-info p {
   margin-bottom: 70px;
   font-size: 20px;
   color: var(--text-black-700);
@@ -310,7 +310,7 @@ h3.my-profession {
 }
 
 .home-img::after {
-  content: '';
+  content: "";
   position: absolute;
   height: 80px;
   width: 80px;
@@ -321,7 +321,7 @@ h3.my-profession {
 }
 
 .home-img::before {
-  content: '';
+  content: "";
   position: absolute;
   height: 80px;
   width: 80px;
@@ -343,12 +343,12 @@ h3.my-profession {
   flex: 0 0 100%;
   max-width: 100%;
 }
-.about .about-content .about-text{
+.about .about-content .about-text {
   flex: 0 0 100%;
   max-width: 100%;
 }
 
-.about .about-content .about-text h3{
+.about .about-content .about-text h3 {
   font-size: 24px;
   margin-bottom: 15px;
   font-weight: 700;
@@ -357,7 +357,7 @@ h3.my-profession {
 .about .about-content .about-text h3 span {
   color: var(--skin-color);
 }
-.about .about-content .about-text  p{
+.about .about-content .about-text p {
   font-size: 16px;
   line-height: 25px;
   color: var(--text-black-700);
@@ -367,10 +367,10 @@ h3.my-profession {
   max-width: 60%;
   margin-top: 40px;
 }
-.about .about-content .personal-info .info-item{
+.about .about-content .personal-info .info-item {
   flex: 0 0 50%;
   max-width: 50%;
-  }
+}
 .about .about-content .personal-info .info-item p {
   font-weight: 600;
   padding: 10px 0;
@@ -399,15 +399,15 @@ h3.my-profession {
 .about .about-content .skills .skill-item {
   flex: 0 0 100%;
   max-width: 100%;
-  }
-.about .about-content .skills .skill-item h5{
+}
+.about .about-content .skills .skill-item h5 {
   line-height: 40px;
   font-weight: 600;
   font-size: 16px;
   color: var(--text-black-900);
   text-transform: capitalize;
 }
-.about .about-content .skills .skill-item .progress{
+.about .about-content .skills .skill-item .progress {
   background-color: var(--bg-black-50);
   height: 7px;
   border-radius: 4px;
@@ -417,7 +417,7 @@ h3.my-profession {
 .about .about-content .skills .skill-item {
   margin-bottom: 25px;
 }
-.about .about-content .skills .skill-item .progress .progress-in{
+.about .about-content .skills .skill-item .progress .progress-in {
   position: absolute;
   left: 0;
   top: 0;
@@ -426,7 +426,7 @@ h3.my-profession {
 }
 
 /* Progress bar percentage completed */
-.about .about-content .skills .skill-item .progress .javascript-class{
+.about .about-content .skills .skill-item .progress .javascript-class {
   width: 70%;
 }
 .about .about-content .skills .skill-item .progress .css-class {
@@ -479,11 +479,11 @@ h3.my-profession {
   padding-left: 37px;
   padding-bottom: 50px;
 }
-.about .about-content .timeline .timeline-item:last-child{
+.about .about-content .timeline .timeline-item:last-child {
   padding-bottom: 0;
 }
 .about .about-content .timeline .timeline-item:before {
-  content: '';
+  content: "";
   width: 1px;
   position: absolute;
   height: 100%;
@@ -526,7 +526,7 @@ h3.my-profession {
 .service .container {
   padding-bottom: 40px;
 }
-.service .service-item{
+.service .service-item {
   margin-bottom: 30px;
   flex: 0 0 33.33%;
   max-width: 33.33%;
@@ -540,7 +540,7 @@ h3.my-profession {
   transition: box-shadow 0.3s ease;
 }
 .service .service-item .service-item-inner:hover {
-  box-shadow: 0 0 30px rgba(48, 46, 77, 0.20);
+  box-shadow: 0 0 30px rgba(48, 46, 77, 0.2);
 }
 .service .service-item .service-item-inner .icon {
   height: 60px;
@@ -558,14 +558,14 @@ h3.my-profession {
   transition: all 0.3s ease;
 }
 
-.service .service-item .service-item-inner:hover .icon{
+.service .service-item .service-item-inner:hover .icon {
   background: var(--skin-color);
 }
-.service .service-item .service-item-inner:hover .icon .fa{
+.service .service-item .service-item-inner:hover .icon .fa {
   font-size: 25px;
   color: #ffffff;
 }
-.service .service-item .service-item-inner h4{
+.service .service-item .service-item-inner h4 {
   font-size: 18px;
   margin-bottom: 15px;
   color: var(--text-black-900);
@@ -586,13 +586,13 @@ h3.my-profession {
   max-width: 100%;
   margin-bottom: 40px;
 }
-.portfolio .portfolio-heading h2{
+.portfolio .portfolio-heading h2 {
   color: var(--text-black-900);
   font-weight: 500;
 }
 .portfolio .portfolio-item {
   flex: 0 0 30%;
-  max-width: 33.33%;
+  max-width: 30%;
   margin-bottom: 30px;
   margin-left: 10px;
   margin-right: 10px;
@@ -604,14 +604,14 @@ h3.my-profession {
   overflow: hidden;
   cursor: pointer;
   transition: transform 0.5s ease;
-    /* Smooth animation */
+  /* Smooth animation */
 }
 .portfolio .portfolio-item-inner:hover {
   transform: translateY(-20px);
   border: 6px solid #3ed2e9;
   /* Move 10px upward */
 }
-.portfolio  .portfolio-item-inner .portfolio-img img{
+.portfolio .portfolio-item-inner .portfolio-img img {
   width: 100%;
   display: block;
 }
@@ -637,7 +637,7 @@ h3.my-profession {
 .contact .contact-info-item .icon {
   display: inline-block;
 }
-.contact .contact-info-item .icon .fa{
+.contact .contact-info-item .icon .fa {
   font-size: 25px;
   color: var(--skin-color);
 }
@@ -648,7 +648,7 @@ h3.my-profession {
   text-transform: capitalize;
   margin: 15px 0 5px;
 }
-.contact .contact-info-item p{
+.contact .contact-info-item p {
   font-size: 16px;
   line-height: 25px;
   color: var(--text-black-700);
@@ -665,12 +665,11 @@ h3.my-profession {
 .contact .contact-form .col-12 {
   flex: 0 0 100%;
   max-width: 100%;
-  
 }
 .contact .contact-form .form-item {
   margin-bottom: 30px;
 }
-.contact .contact-form .form-item .form-control{
+.contact .contact-form .form-item .form-control {
   width: 100%;
   height: 50px;
   border-radius: 25px;
@@ -681,13 +680,13 @@ h3.my-profession {
   color: var(--text-black-700);
   transition: all 0.3s ease;
 }
-.contact .contact-form .form-item .form-control:focus{
+.contact .contact-form .form-item .form-control:focus {
   box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
 }
-.contact .contact-form .form-item textarea.form-control{
+.contact .contact-form .form-item textarea.form-control {
   height: 140px;
 }
-.contact .contact-form .btn{
+.contact .contact-form .btn {
   height: 50px;
   padding: 0 50px;
 }
@@ -698,31 +697,32 @@ h3.my-profession {
 }
 /* Test code ends */
 
-
 /* Responsiveness */
-@media (max-width: 1199px){
+@media (max-width: 1199px) {
   .aside {
     left: -270px;
   }
-  .main-content{
+  .main-content {
     padding-left: 0;
   }
-  .about .about-content .personal-info .info-item p span{
+  .about .about-content .personal-info .info-item p span {
     display: block;
     margin-left: 0;
   }
 }
-  
 
-@media (max-width:991px){
+@media (max-width: 991px) {
   .contact .contact-info-item,
-  .portfolio .portfolio-item,
-  .service .service-item{
+  .service .service-item {
     flex: 0 0 50%;
     max-width: 50%;
   }
-  
-  
+  .portfolio .portfolio-item {
+    flex: 0 0 45%;
+    max-width: 45%;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
   .home .home-info {
     flex: 0 0 100%;
     max-width: 100%;
@@ -732,7 +732,7 @@ h3.my-profession {
   }
 }
 
-@media (max-width: 767px){
+@media (max-width: 767px) {
   .contact .contact-form .col-6,
   .contact .contact-info-item,
   .portfolio .portfolio-item,
@@ -744,7 +744,7 @@ h3.my-profession {
     flex: 0 0 100%;
     max-width: 100%;
   }
-} 
+}
 
 /* Loader animation starts */
 .loading-page {
@@ -796,4 +796,3 @@ h3.my-profession {
 }
 
 /* Loader animation ends */
-
