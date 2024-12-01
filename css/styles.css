@@ -596,7 +596,8 @@ h3.my-profession {
   margin-bottom: 30px;
 }
 .portfolio .portfolio-item-inner {
-  border: 6px solid var(--bg-black-100);
+  /* border: 6px solid var(--bg-black-100); */
+  border: 6px solid #d9edf7;
   border-radius: 10px;
   overflow: hidden;
   cursor: pointer;
