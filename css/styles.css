@@ -424,6 +424,8 @@ h3.my-profession {
   height: 100%;
   background-color: var(--skin-color);
 }
+
+/* Progress bar percentage completed */
 .about .about-content .skills .skill-item .progress .javascript-class{
   width: 70%;
 }
@@ -439,7 +441,6 @@ h3.my-profession {
 .about .about-content .skills .skill-item .progress .ml-class {
   width: 80%;
 }
-
 
 .about .about-content .skills .skill-item .skill-percent {
   position: absolute;
