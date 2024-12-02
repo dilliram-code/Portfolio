@@ -27,22 +27,18 @@ thirdLink.addEventListener('click', ()=> {
 
 
 // Email Js starts
-
+let public_key = 'hFrNm3XDp2pxj6OtW';
 // Initialize EmailJS with your user ID
-emailjs.init('hFrNm3XDp2pxj6OtW'); 
-  // Wait for the page to load
-  document.addEventListener('DOMContentLoaded', function () {
-    // Add an event listener to the submit button
+(function(){emailjs.init(public_key);})(); 
+  document.addEventListener('DOMContentLoaded', ()=> {
     document.querySelector('.btn').addEventListener('click', function (e) {
-      e.preventDefault(); 
+      e.preventDefault();
 
-      // Get the form data
-      const name = document.querySelector('input[placeholder="Name"]').value;
-      const email = document.querySelector('input[placeholder="Email"]').value;
-      const subject = document.querySelector('input[placeholder="Subject"]').value;
-      const message = document.querySelector('textarea[placeholder="Message"]').value;
+      const name = document.querySelector('#Name').value;
+      const email = document.querySelector('#Email').value;
+      const subject = document.querySelector('#Subject').value;
+      const message = document.querySelector('#Message]').value;
 
-      // Use EmailJS to send the data
       emailjs.send('service_f7fz87m', 'template_965xjpo', {
         name: name,
         email: email,
@@ -57,7 +53,6 @@ emailjs.init('hFrNm3XDp2pxj6OtW');
       });
     });
   });
-
 
 
 // Eamil Js ends
