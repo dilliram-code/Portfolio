@@ -827,6 +827,13 @@ h3.my-profession {
 }
 
 /* Pikachu Gif starts */
+.pikachu-gif {
+  width: 3.5rem;
+  height: auto;
+  margin-right: 10px;
+  /* filter: hue-rotate(330deg); */
+    /* Adjust the hue */
+}
 /* Pikachu gif ends */
 
 /* Loader animation starts */
