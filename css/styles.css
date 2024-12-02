@@ -699,7 +699,7 @@ h3.my-profession {
 /* Footer section starts */
 .footer {
   background-color: #222;
-  color: #fff;
+  color: #E2DFD2;
   padding: 20px 0;
   text-align: center;
   /* border-top-left-radius: 10px;
@@ -719,7 +719,7 @@ h3.my-profession {
 /* Individual Social Media Links */
 .social-media-icons a {
   text-decoration: none;
-  color: #fff;
+  color: #E2DFD2;
   font-size: 35px;
   display: inline-block;
   transition: color 0.3s, transform 0.3s ease;
@@ -747,7 +747,34 @@ h3.my-profession {
   display: flex;
   justify-content:space-around;
   align-items: center;
+  transition: all 0.8s ease;
+}
+.footer-text-container .copyright-text{
+  color: #ffffff;
+    /* Text color */
+    text-shadow: 0 0 5px #ffffff;
+    /* Initial subtle glow */
+    transition: text-shadow 0.3s ease;
+    /* Smooth transition on hover */
+}
+.footer-text-container .terms {
+  color: #ffffff;
+    /* Text color */
+    text-shadow: 0 0 5px #ffffff;
+    /* Initial subtle glow */
+    transition: text-shadow 0.3s ease;
+    /* Smooth transition on hover */
+}
+.footer-text-container .policy{
+  color: #ffffff;
+  text-shadow: 0 0 5px #ffffff;
+  transition: text-shadow 0.3s ease;
+}
+.footer-text-container .copyright-text:hover, .footer-text-container .terms:hover, .footer-text-container .policy:hover{
   color: #fff;
+  transform: translateY(-2px);
+  cursor: pointer;
+  text-shadow: 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 30px #ffffff;
 }
 /* Footer text at ends section ends */
 /* Footer section ends */
