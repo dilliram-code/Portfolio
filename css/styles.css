@@ -696,7 +696,52 @@ h3.my-profession {
   max-width: 60%;
 }
 /* Test code ends */
+/* Footer section starts */
+.footer {
+  background-color: #222;
+  /* Dark background */
+  color: #fff;
+  padding: 20px 0;
+  /* Vertical padding for spacing */
+  text-align: center;
+  /* Center content */
+}
 
+/* Social Media Icons Container */
+.social-media-icons {
+  list-style: none;
+  /* Remove bullet points */
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  /* Center icons horizontally */
+  gap: 30px;
+  /* Add space between items */
+}
+
+/* Individual Social Media Links */
+.social-media-icons a {
+  text-decoration: none;
+  /* Remove underline */
+  color: #fff;
+  /* Bright icon color */
+  font-size: 24px;
+  /* Medium size icons */
+  display: inline-block;
+  /* Required for transform */
+  transition: color 0.3s, transform 0.3s ease;
+  /* Smooth hover effect */
+}
+
+/* Hover Effect */
+.social-media-icons a:hover {
+  color: #9bbded;
+  /* Change color on hover */
+  transform: translateY(-5px);
+  /* Shift icon upward */
+}
+/* Footer section ends */
 /* Responsiveness */
 @media (max-width: 1199px) {
   .aside {
