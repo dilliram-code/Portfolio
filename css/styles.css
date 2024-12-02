@@ -702,6 +702,8 @@ h3.my-profession {
   color: #fff;
   padding: 20px 0;
   text-align: center;
+  border-top-left-radius: 10px; 
+  border-top-right-radius: 10px; 
 }
 
 /* Social Media Icons Container */
