@@ -726,7 +726,7 @@ h3.my-profession {
   /* Remove underline */
   color: #fff;
   /* Bright icon color */
-  font-size: 24px;
+  font-size: 35px;
   /* Medium size icons */
   display: inline-block;
   /* Required for transform */
@@ -736,9 +736,9 @@ h3.my-profession {
 
 /* Hover Effect */
 .social-media-icons a:hover {
-  color: #9bbded;
+  color: var(--skin-color);
   /* Change color on hover */
-  transform: translateY(-5px);
+  transform: translateY(-6px);
   /* Shift icon upward */
 }
 /* Footer section ends */
