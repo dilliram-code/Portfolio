@@ -36,6 +36,11 @@ body {
   font-family: "Poppins", serif;
   line-height: 1.5;
 }
+::selection {
+  background-color: #f08ee5;
+  font-style: italic;
+  color: black;
+}
 ::before,
 ::after {
   box-sizing: border-box;
@@ -751,19 +756,13 @@ h3.my-profession {
 }
 .footer-text-container .copyright-text{
   color: #ffffff;
-    /* Text color */
-    text-shadow: 0 0 5px #ffffff;
-    /* Initial subtle glow */
-    transition: text-shadow 0.3s ease;
-    /* Smooth transition on hover */
+  text-shadow: 0 0 5px #ffffff;
+  transition: text-shadow 0.3s ease;
 }
 .footer-text-container .terms {
   color: #ffffff;
-    /* Text color */
-    text-shadow: 0 0 5px #ffffff;
-    /* Initial subtle glow */
-    transition: text-shadow 0.3s ease;
-    /* Smooth transition on hover */
+  text-shadow: 0 0 5px #ffffff;
+  transition: text-shadow 0.3s ease;
 }
 .footer-text-container .policy{
   color: #ffffff;
