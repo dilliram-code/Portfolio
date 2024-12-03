@@ -27,7 +27,9 @@ thirdLink.addEventListener('click', ()=> {
 
 
 // Email Js starts
-let public_key = 'hFrNm3XDp2pxj6OtW';
+const public_key = 'hFrNm3XDp2pxj6OtW';
+const serviceId = 'service_f7fz87m';
+const templateId = 'template_965xjpo';
 // Initialize EmailJS with your user ID
 (function(){emailjs.init(public_key);})(); 
   document.addEventListener('DOMContentLoaded', ()=> {
@@ -39,7 +41,7 @@ let public_key = 'hFrNm3XDp2pxj6OtW';
       const subject = document.querySelector('#Subject').value;
       const message = document.querySelector('#Message]').value;
 
-      emailjs.send('service_f7fz87m', 'template_965xjpo', {
+      emailjs.send(serviceId, templateId, {
         name: name,
         email: email,
         subject: subject,
