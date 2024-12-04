@@ -824,6 +824,15 @@ h3.my-profession {
     flex: 0 0 100%;
     max-width: 100%;
   }
+  .footer-text-item {
+    display: block;
+  }
+  .footer-text-container{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 /* Test code for responsiveness */
