@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="../images/favicon.ico" type="image/x-icon" />
     <title>Document</title>
     <style>
       * {
@@ -35,10 +36,14 @@
         margin: 5px;
       }
       .logo .logo-content {
-        height: 200px;
+        height: 310px;
         width: 200px;
         border-radius: 10px;
-        background-size: cover;
+        border: 2px solid #faf9f6;
+        padding: 10px;
+        text-align: center;
+        font-size: 1.5rem;
+        overflow: hidden;
       }
       .logo:nth-child(2) {
         transition-delay: 200ms;
@@ -63,19 +68,30 @@
         filter: blur(0);
         transform: translateX(0);
       }
+      .heading-1 {
+        font-size: 2rem;
+      }
+      .heading-2 {
+        margin-bottom: 20px;
+      }
+      .main-paragraph {
+        margin-top: 10px;
+        text-align: center;
+        font-size: 1.5rem;
+      }
     </style>
   </head>
   <body>
     <section class="hidden">
-      <h1>Privacy Policy</h1>
-      <p>
+      <h1 class="heading-1">Privacy Policy</h1>
+      <p class="main-paragraph">
         We value your privacy and are committed to protecting your personal
         information.
       </p>
     </section>
 
     <section class="hidden">
-      <h2>It's really good!</h2>
+      <h2 class="heading-2">Please read the privacy policies!</h2>
       <div class="logos">
         <div class="logo hidden">
           <p class="logo-content">
