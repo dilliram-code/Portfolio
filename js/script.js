@@ -27,9 +27,11 @@ thirdLink.addEventListener('click', ()=> {
 
 
 // Email Js starts
-const public_key = 'hFrNm3XDp2pxj6OtW';
-const serviceId = 'service_f7fz87m';
-const templateId = 'template_965xjpo';
+// const public_key = 'hFrNm3XDp2pxj6OtW';
+// const serviceId = 'service_f7fz87m';
+// const templateId = 'template_965xjpo';
+
+
 // Initialize EmailJS with your user ID
 // (function(){emailjs.init(public_key);})(); 
 //   document.addEventListener('DOMContentLoaded', ()=> {

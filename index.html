@@ -484,32 +484,32 @@
               <div class="row">
                 <div class="form-item col-6 padd-15">
                   <div class="form-group">
-                    <input type="text" class="form-control" id="Name" placeholder="Name">
+                    <input type="text" class="form-control" id="name" placeholder="Name">
                   </div>
                 </div>
                 <div class="form-item col-6 padd-15">
                   <div class="form-group">
-                    <input type="email" class="form-control" id="Email" placeholder="Email">
+                    <input type="email" class="form-control" id="email" placeholder="Email">
                   </div>
                 </div>
               </div>
               <div class="row">
                 <div class="form-item col-12 padd-15">
                   <div class="form-group">
-                    <input type="text" class="form-control" id="Subject" placeholder="Subject">
+                    <input type="text" class="form-control" id="subject" placeholder="Subject">
                   </div>
                 </div>
               </div>
               <div class="row">
                 <div class="form-item col-12 padd-15">
                   <div class="form-group">
-                    <textarea name="" id="" class="form-control" id="Message" placeholder="Message"></textarea>
+                    <textarea class="form-control" id="message" placeholder="Message"></textarea>
                   </div>
                 </div>
               </div>
               <div class="row">
                 <div class="form-item col-12 padd-15">
-                  <button type="submit" class="btn submit-btn">Send Message</button>
+                  <button onclick="sendMail()" type="submit" class="btn submit-btn">Send Message</button>
                 </div>
               </div>
             </div>
@@ -604,6 +604,7 @@
       });
       })();
     </script>
+    <script src="js/email.js"></script>
     <!-- Email js code ends here -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js"></script>
     <script src="js/script.js"></script>
