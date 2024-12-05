@@ -3,45 +3,116 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Privacy policy</title>
+    <title>Document</title>
     <style>
       * {
         margin: 0;
         padding: 0;
         box-sizing: border-box;
       }
-      html {
-        font-size: 62.5%;
-      }
       body {
-        background: black;
+        background-color: #222;
         color: #fff;
+        overflow-x: hidden;
       }
-      p{
-        margin-top: 2rem;
-        margin-right: 2rem;
-        margin-left: 10rem;
-        font-size: 1.7rem;
+
+      section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
       }
-      h1{
-        margin-top: 2rem;
-        margin-left: 10rem;
-        margin-right: 2rem;
+      .logos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+      }
+      .logo {
+        margin: 5px;
+      }
+      .logo img {
+        height: 200px;
+        width: 200px;
+        border-radius: 10px;
+        background-size: cover;
+      }
+      .logo:nth-child(2) {
+        transition-delay: 200ms;
+      }
+      .logo:nth-child(3) {
+        transition-delay: 400ms;
+      }
+      .logo:nth-child(4) {
+        transition-delay: 600ms;
+      }
+      .logo:nth-child(5) {
+        transition-delay: 800ms;
+      }
+      .hidden {
+        opacity: 0;
+        filter: blur(5px);
+        transform: translateX(-100%);
+        transition: all 3s;
+      }
+      .show {
+        opacity: 1;
+        filter: blur(0);
+        transform: translateX(0);
       }
     </style>
   </head>
   <body>
-    <div class="main-container">
+    <section class="hidden">
+      <h1>Hi Mom</h1>
+      <p>This is my website.</p>
+    </section>
+    <section class="hidden">
+      <h2>Buy me product</h2>
+    </section>
+    <section class="hidden">
+      <h2>This is a brand new product</h2>
       <p>
-        This Privacy Policy outlines how the Portfolio Website (referred to as
-        "the Website") collects, uses, maintains, and protects information
-        obtained from users (referred to as "Visitors") who access or interact
-        with the Website. By using the Website, you signify your agreement to
-        this Privacy Policy.
+        The things you own end up owing you. It's only after you lose everything
+        that you're fine and super cool
       </p>
-      <hr/>
-      <h1>Personal Identification Information</h1>
-      <br />
-    </div>
+    </section>
+    <section class="hidden">
+      <h2>It's really good!</h2>
+      <div class="logos">
+        <div class="logo hidden">
+          <img src="./images/female3.jpeg" alt="A female photo" />
+        </div>
+        <div class="logo hidden">
+          <img src="./images/female4.jpeg" alt="A female photo" />
+        </div>
+        <div class="logo hidden">
+          <img src="./images/male1.png" alt="A male photo" />
+        </div>
+        <div class="logo hidden">
+          <img src="./images/male2.png" alt="A male photo" />
+        </div>
+        <div class="logo hidden">
+          <img src="./images/male3.png" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <script>
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            // console.log(entry.target);
+            entry.target.classList.add("show");
+          } else {
+            entry.target.classList.remove("show");
+          }
+        });
+      });
+
+      const hiddenElements = document.querySelectorAll(".hidden");
+      hiddenElements.forEach((el) => observer.observe(el));
+    </script>
   </body>
 </html>
